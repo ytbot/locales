@@ -1,11 +1,11 @@
 const Locale = require("./Locale.js");
 
 module.exports = new Locale({ //INFO
-        name: "",
-        id: "",
-        humanizerLanuage: "",
-        emoji: ""
-    },
+    name: "",
+    id: "",
+    humanizerLanuage: "",
+    emoji: ""
+},
     // actual locales
     /**Format:
      * {
