@@ -3,7 +3,7 @@ module.exports = class BaseLocale {
         this.info = info;
         this.locales = locales;
         [...new Set(
-            locales.map(x=>x.category) // Only duplicates
+            locales.map(x=>x.category) // No duplicates
         )].forEach(category=>{
             this[category] = function(name, ...params) { // Creates function for each category
                 let msg = locales.find(x=>x.category === category && x.name === name).message; // Finds locale object
