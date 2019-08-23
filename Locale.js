@@ -1,4 +1,4 @@
-module.exports = class BaseLocale {
+module.exports = class Locale {
     constructor(info, locales) {
         this.info = info;
         this.locales = locales;

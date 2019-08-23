@@ -1,6 +1,6 @@
-const BaseLocale = require("./BaseLocale.js");
+const Locale = require("./Locale.js");
 
-module.exports = new BaseLocale({ //INFO
+module.exports = new Locale({ //INFO
         name: "",
         id: "",
         humanizerLanuage: "",
