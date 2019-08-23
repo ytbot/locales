@@ -1,0 +1,1 @@
+Locales for ytbot replies
